@@ -5,7 +5,7 @@ const WhatWe = () => {
   return (
     <div className="whatwe-container">
       <div className="whatwe-left">
-        <img src="/assets/iphone.png" alt="iPhone" className="iphone-image" />
+        <img src="/assets/iphone2.png" alt="iPhone" className="iphone-image" />
       </div>
 
       <div className="whatwe-right">
