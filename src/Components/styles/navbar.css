@@ -1,0 +1,82 @@
+.navbar {
+    top: 33px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 57px;
+  height: 80px;
+  background-color: #fff;
+  position: relative; 
+}
+
+/* Top border */
+.navbar::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 57px;      
+  right: 57px;     
+  height: 1px;
+  background-color: #E5E5E5;
+}
+
+/* Bottom border */
+.navbar::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 57px;     
+  right: 57px;     
+  height: 1px;
+  background-color: #E5E5E5;
+}
+
+/* Logo Image */
+.navbar-logo img {
+  height: 120px;
+  width: auto;
+  object-fit: contain;
+  cursor: pointer;
+}
+
+/* Center links */
+.navbar-links {
+  display: flex;
+  list-style: none;
+  gap: 72px;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-links li {
+  font-size: 20px;
+  color: #000000;
+  font-weight: 500;
+  cursor: pointer;
+  transition: color 0.2s;
+}
+
+.navbar-links li:hover {
+  color: #007bff;
+}
+
+.contact-btn {
+  background-color: #008BFD;
+  color: white;
+  border: none;
+  width: 178px;
+  height: 41px;
+  border-radius: 24px;
+  padding: 10px 25px; 
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 600;
+  display: flex;
+  justify-content: center; /* horizontal center */
+  align-items: center;     /* vertical center */
+  opacity: 1;
+  transition: background 0.2s;
+}
+
+
+
